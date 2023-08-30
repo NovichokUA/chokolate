@@ -93,8 +93,8 @@ body {
 /* hero */
 
 .section-hero {
-
-    background-image: url(../images/section-hero/chokolat-one.jpg);
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../images/section-hero/chocolate_main.jpg);
 }
 
 .container-button {
@@ -203,4 +203,169 @@ body {
 .scroll-link:hover .scroll-down-fill,
 .scroll-link:focus .scroll-down-fill {
     fill: #ffff;
+}
+
+/* Hero Section */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Sectoin Advantages */
+
+.sectoin-advantages {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    background: var(--violet, #1E1823);
+    padding: 50px;
+}
+
+.container-advantages {
+    display: flex;
+}
+
+.title-advantages {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 18px;
+    padding-top: 19px;
+}
+
+.description-advantages {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 308px;
+}
+
+.icon-advantages {
+    width: 60px;
+    height: 60px;
+    fill: var(--orange);
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.list-adventages {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 1px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.50);
+}
+
+.container-description-advantages {
+    padding-right: 44px;
+}
+
+.container-description-advantages-group {
+    padding-right: 44px;
+    padding-left: 44px;
+}
+
+.title-advantages-productions {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    padding-bottom: 18px;
+    padding-top: 22px;
+}
+
+.list-adventages-spoon {
+    padding-left: 44px;
+}
+
+/* Sectoin Advantages */
+
+/* ------------------ */
+
+/* Section ingridient */
+
+.title-ingridient {
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 412px;
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.title-ingridient-span {
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.container-ingridient {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 24px;
+}
+
+.list-ingridient {
+    padding: 28px 23px;
+    border-radius: 15px;
+    background: #FD9222;
+}
+
+.icon-ingridient {
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+}
+
+.title-list-ingridient {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
 }
