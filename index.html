@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="section-header">
+    <!-- <header class="section-header">
       <div class="container container-header">
         <nav class="navigation">
           <a class="link-logo link" href="./index.html"
@@ -66,9 +66,9 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
     <!-- Hero Section -->
-    <section class="container section-hero">
+    <!-- <section class="container section-hero">
       <div class="title-hero-container">
         <h1 class="title-hero">
           Treat yourself or a loved one to our finest ingredients for a moment
@@ -93,9 +93,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Sectoin Advantages -->
-    <section class="sectoin-advantages">
+    <!-- <section class="sectoin-advantages">
       <h2 class="visually-hidden" id="scroll-down">Advantages</h2>
       <ul class="container-advantages">
         <li class="list-adventages">
@@ -150,9 +150,9 @@
           </p>
         </li>
       </ul>
-    </section>
+    </section> -->
     <!-- Section ingridient -->
-    <section class="container">
+    <!-- <section class="container">
       <h2 class="title-ingridient">
         It all adds up to one exceptional
         <span class="title-ingridient-span">taste</span> sensation
@@ -236,9 +236,9 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> -->
     <!-- Section How it’s made? -->
-    <section class="container container-how-made" id="how-its-made">
+    <!-- <section class="container container-how-made" id="how-its-made">
       <h2 class="title-how-made">
         How it’s <span class="title-how-made-diff">made</span>?
       </h2>
@@ -287,9 +287,9 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Our products -->
-    <section class="container container-our-products">
+    <!-- <section class="container container-our-products">
       <h2 class="title-list-our-product-main">
         Our <span class="title-list-our-product-main-diff">products</span>
       </h2>
@@ -399,9 +399,9 @@
           </button>
         </li>
       </ul>
-    </section>
+    </section> -->
     <!-- Top sellers -->
-    <section class="container container-sellers">
+    <!-- <section class="container container-sellers">
       <h2 class="title-sellers-main">
         <span class="title-sellers-main-diff">Top</span> sellers
       </h2>
@@ -463,9 +463,9 @@
           <h3 class="title-sellers">DARK CHOCOLATE</h3>
         </li>
       </ul>
-    </section>
+    </section> -->
     <!-- Section "Reviews" -->
-    <section class="container container-rewiew" id="chocolate-is-loved">
+    <!-- <section class="container container-rewiew" id="chocolate-is-loved">
       <h2 class="title-rewiew-main">
         <span class="title-rewiew-main-diff">Chocolate</span> is loved
       </h2>
@@ -522,8 +522,8 @@
         </li>
       </ul>
       <button class="button-rewiew" type="button">Leave a review</button>
-    </section>
-    <footer class="container-footer">
+    </section> -->
+    <!-- <footer class="container-footer">
       <h2>Chocolate a delicious cure for a bad day</h2>
       <nav>
         <ul>
@@ -549,6 +549,94 @@
           </li>
         </ul>
       </address>
-    </footer>
+    </footer> -->
+    <!-- MODAL FORM -->
+    <form action="#" class="modal-form-container">
+      <button type="button" class="button-modal-close">
+        <svg width="28" height="28" class="button-close-icon">
+          <use href="./images/svg/symbol-defs.svg#icon-x-close"></use>
+        </svg>
+      </button>
+
+      <p class="title-form">
+        LEAVE A REVIEW ABOUT
+        <span class="title-form-changed">OUR CHOCOLATE</span>
+      </p>
+      <label class="title-user" for="user_name">Name</label>
+      <div class="position-svg">
+        <input
+          class="user-field-input"
+          type="text"
+          name="user_name"
+          id="user_name"
+          placeholder="Valerii"
+        />
+        <svg width="24" height="24" class="icon-user-modal">
+          <use href="./images/svg/symbol-defs.svg#icon-user1"></use>
+        </svg>
+      </div>
+
+      <label class="title-user" for="user_email">Email</label>
+      <div class="position-svg">
+        <input
+          class="user-field-input"
+          type="email"
+          name="user_email"
+          id="user_email"
+          required
+          pattern="a-zA-ZА-Яа-яІіЇїГгЄє"
+          placeholder="val@gamil.com"
+        />
+        <svg width="24" height="24" class="icon-user-email">
+          <use href="./images/svg/symbol-defs.svg#icon-mail1"></use>
+        </svg>
+      </div>
+
+      <label class="title-user" for="user_phone">Phone number</label>
+      <div class="position-svg">
+        <input
+          class="user-field-input"
+          type="tel"
+          name="user_phone"
+          id="user_phone"
+          placeholder="+38xxx-xxx-xx-xx"
+        />
+        <svg class="icon-user-modal" width="24" height="24">
+          <use href="./images/svg/symbol-defs.svg#icon-phone"></use>
+        </svg>
+      </div>
+
+      <label class="title-user" for="user_comment">Comment</label>
+      <textarea
+        class="user-comment"
+        name="user_comment"
+        id="user_comment"
+        placeholder="Enter text"
+      ></textarea>
+
+      <div class="container-castom-checkbox">
+        <input
+          class="user-checkbox visually-hidden"
+          type="checkbox"
+          name="user_checkbox"
+          id="user_checkbox"
+        />
+        <label class="user-checkbox-title" for="user_checkbox">
+          <span class="castom-checkbox">
+            <svg width="10" height="10" class="icon-castom-checkbox">
+              <use
+                href="./images/svg/symbol-defs.svg#icon-icon-check-mark"
+              ></use>
+            </svg>
+          </span>
+          I accept the terms and conditions of the
+          <a class="link-user-checkbox" href="#"
+            ><span class="text-privacy-changed">Privacy Policy</span></a
+          >
+        </label>
+      </div>
+
+      <button class="button-modal" type="button">Send</button>
+    </form>
   </body>
 </html>

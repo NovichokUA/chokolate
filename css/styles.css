@@ -828,3 +828,204 @@ body {
 }
 
 /* Section Footer */
+
+/* Section Footer */
+
+
+/* Modal Form */
+
+.modal-form-container {
+    width: 517px;
+    height: 794px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    position: relative;
+}
+
+.title-form {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    width: 298px;
+}
+
+.title-form-changed {
+    color: #FD9222;
+}
+
+.title-user {
+    color: rgba(64, 64, 64, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.user-field-input {
+    outline: transparent;
+    width: 100%;
+    height: 68px;
+    padding-left: 62px;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+    color: rgba(64, 64, 64);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.position-svg {
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+
+.icon-user-modal {
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
+
+.icon-user-email {
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
+
+.icon-user-email {
+    stroke-width: 1px;
+    stroke: #111;
+    fill: #FAFAFA;
+}
+
+.position-svg:hover .user-field-input,
+.position-svg:focus .user-field-input {
+    border: 1.5px solid #E74A3B;
+}
+
+.position-svg:hover .icon-user-modal,
+.position-svg:focus .icon-user-modal {
+    fill: #FD9222;
+}
+
+.position-svg:hover .icon-user-email,
+.position-svg:focus .icon-user-email {
+    stroke: #FD9222;
+}
+
+.user-comment {
+    color: rgba(64, 64, 64);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    width: 100%;
+    height: 137px;
+    resize: none;
+    outline: transparent;
+    padding: 22px 24px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+}
+
+.container-castom-checkbox {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.user-checkbox-title {
+    display: flex;
+    color: rgba(64, 64, 64, 0.60);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    gap: 12px;
+    align-items: center;
+}
+
+.text-privacy-changed {
+    color: var(--orange, #FD9222);
+    text-decoration-line: underline;
+}
+
+.castom-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid rgba(17, 17, 17, 0.14);
+}
+
+.icon-castom-checkbox {
+    fill: transparent;
+}
+
+.user-checkbox:checked+.user-checkbox-title>.castom-checkbox {
+    background-color: #FD9222;
+    border: none;
+}
+
+.user-checkbox:checked+.user-checkbox-title>.castom-checkbox>.icon-castom-checkbox {
+    fill: #FFF;
+}
+
+.button-modal {
+    border-radius: 100px;
+    background: #FD9222;
+    padding: 14px 40px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    border: none;
+
+}
+
+.button-modal-close {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.button-close-icon {
+    stroke-width: 1px;
+    stroke: #111;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.button-modal-close:hover .button-close-icon {
+    stroke: #FD9222;
+}
