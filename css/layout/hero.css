@@ -1,0 +1,347 @@
+/* hero */
+.title-hero-container {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/orig/chocolate_main-mobile.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-hero {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    width: 299px;
+    padding: 395px 20px 32px;
+}
+
+.title-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 28px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    transition: color 500ms ease-in-out;
+    transition: border 500ms ease-in-out;
+}
+
+.link-hero {
+    padding: 0 0 32px 20px;
+}
+
+.button-hero {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: #FD9222;
+    cursor: pointer;
+    padding: 12px 28px;
+    outline: none;
+    border: none;
+    margin-right: 14px;
+    transition: color, background-color 250ms ease-in-out;
+}
+
+.button-hero:hover,
+.button-hero:focus,
+.button-hero:active {
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+
+.title-link:active,
+.title-link:hover,
+.title-link:focus {
+    border: 1px solid #FD9222;
+    color: #FD9222;
+}
+
+.container-button {
+    padding-bottom: 20px;
+}
+
+.container-scroll {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.title-scroll {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+}
+
+.scroll-link {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    outline: none;
+    border-radius: 50%;
+}
+
+.scroll-down-fill {
+    fill: var(--orange, #FD9222);
+}
+
+.container-scroll:hover .title-scroll {
+    color: #FD9222;
+}
+
+.container-scroll:hover .scroll-link {
+    background-color: #FD9222;
+}
+
+.container-scroll:hover .scroll-down-fill {
+    fill: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+
+    .title-hero-container {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/orig/chocolate_main-tablet.jpg);
+    }
+
+    .title-hero {
+        padding: 671px 40px 32px;
+        width: 484px;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.21;
+    }
+
+    .button-hero {
+        padding: 14px 40px;
+        margin: 0;
+    }
+
+    .title-link {
+        padding: 14px 40px;
+    }
+
+    .container-button {
+        display: flex;
+        padding: 0 40px;
+        padding-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .link-hero {
+        display: flex;
+        gap: 14px;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .title-hero {
+        padding: 381px 40px 32px;
+    }
+
+    .title-hero-container {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/orig/chocolate_main-desktop.jpg);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) {
+    .title-hero-container {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/orig/chocolate_main-desktop@2x.jpg);
+        ;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 1199px),
+screen and (min-resolution: 2dppx) and (max-width: 1199px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1199px) {
+    .title-hero-container {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/orig/chocolate_main-tablet@2x.jpg);
+        ;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .title-hero-container {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/orig/chocolate_main-mobile@2x.jpg);
+        ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-hero {
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.40), rgba(17, 17, 17, 0.40)), url(../../images/section-hero/chocolate_main.jpg);
+    background-size: cover;
+}
+
+.container-button {
+    display: flex;
+}
+
+.title-hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 384px 40px 40px 40px;
+
+}
+
+.title-hero {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.84px;
+    width: 484px;
+    margin-bottom: 32px;
+}
+
+.button-hero {
+    display: flex;
+    padding: 14px 40px;
+    border-radius: 100px;
+    background: #FD9222;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.button-hero:focus,
+.button-hero:hover {
+    background-color: var(--beige, #FCF1E0);
+    color: var(--orange);
+}
+
+.link-hero {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 896px;
+}
+
+.title-link {
+    display: flex;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 14px 40px;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    margin-left: 4px;
+    transition: border 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.title-link:hover,
+.title-link:focus {
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.scroll-link {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.42px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 250ms ease-in-out;
+}
+
+.scroll-down {
+    display: flex;
+    margin-left: 14px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-scroll {
+    padding: 5px 17px 10px 17px;
+    border-radius: 10px;
+    background: #1E1823;
+    transition: background 250ms ease-in-out;
+}
+
+.scroll-down-fill {
+    fill: #FD9222;
+}
+
+.container-scroll:hover .scroll-link,
+.container-scroll:focus .scroll-link {
+    color: #FD9222;
+}
+
+.container-scroll:hover,
+.container-scroll:focus {
+    background: none;
+}
+
+.container-scroll:hover .scroll-link .scroll-down,
+.container-scroll:focus .scroll-link .scroll-down {
+    background-color: #FD9222;
+}
+
+.container-scroll:hover .scroll-link .scroll-down .scroll-down-fill,
+.container-scroll:focus .scroll-link .scroll-down .scroll-down-fill {
+    fill: #ffff;
+} */

@@ -70,5 +70,14 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M24 8l-16 16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M8 8l16 16"></path>
 </symbol>
+<symbol id="icon-burger-menu" viewBox="0 0 32 32">
+<title>burger-menu</title>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M4 16h24M4 8h24M4 24h24"></path>
+</symbol>
+<symbol id="icon-chocolate-logo" viewBox="0 0 31 32">
+<title>chocolate-logo</title>
+
+<path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6182" d="M20.651 23.521l-13.541-8.461M10.845 8.935l13.541 8.461M10.147 25.416l11.202-18.375M25.941 14.844c-2.902-1.813-4.041-3.23-2.174-6.293l-9.188-5.742-11.202 18.375 13.541 8.461 9.024-14.802z"></path>
+</symbol>
 </defs>
 </svg>
